@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniNews | Tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #FF3B30; --bg: #F2F2F7; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Plus Jakarta Sans', sans-serif; }
+        body { background-color: var(--bg); padding-bottom: 90px; }
+        header { padding: 30px 20px; background: #fff; }
+        .feed { padding: 20px; }
+        .card { background: #fff; border-radius: 18px; padding: 20px; margin-bottom: 15px; border-left: 5px solid #007AFF; }
+        nav { position: fixed; bottom: 0; width: 100%; background: #fff; display: flex; justify-content: space-around; padding: 20px; border-top: 1px solid #e5e5ea; }
+        nav a { text-decoration: none; font-size: 22px; color: #8e8e93; }
+        nav a.active { color: var(--primary); }
+    </style>
+</head>
+<body>
+    <header><h1>Tech News</h1></header>
+    <div class="feed">
+        <div class="card"><h2>New App Ecosystem Launches</h2><p>Meta reveals standalone platform for real-time visual messaging.</p></div>
+        <div class="card"><h2>Cloud Growth Hits Record</h2><p>Alphabet reports massive surge in AI-driven enterprise revenue.</p></div>
+    </div>
+    <nav>
+        <a href="index.html">🏠</a>
+        <a href="world.html">🌍</a>
+        <a href="tech.html" class="active">💻</a>
+        <a href="sports.html">🏆</a>
+    </nav>
+</body>
+</html>
